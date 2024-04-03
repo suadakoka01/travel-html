@@ -1,0 +1,398 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1;
+  font-weight: 200;
+  color: #555;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 240px;
+}
+
+.container {
+  display: flex;
+  flex: content;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+li {
+  list-style-type: none;
+}
+.menu li a {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  font-weight: 54px;
+  text-decoration: none;
+}
+.menu {
+  display: flex;
+  flex: 0.4;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#home-link {
+  /* Stilizimet për elementin "Home" në listën e navigimit */
+  font-weight: bold;
+  font-size: 20px;
+  color: #333;
+}
+.contact-link {
+  font-weight: bold;
+  font-size: 20px;
+  color: #333;
+}
+
+.contact-box {
+  display: flex;
+  flex: 0.19;
+}
+
+.contact-box .contact-link {
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+  position: relative;
+  border: 2px solid #333;
+  border-radius: 5px;
+}
+
+.header-container {
+  height: 400px;
+  position: absolute;
+  display: flex;
+  justify-content: space-between; /* Vendos titullin dhe imazhin në anët e ekstremiteteve */
+  align-items: center;
+}
+
+h1 {
+  font-family: "Cardo", serif;
+  font-size: 50px; /* Madhësia e fontit për titullin */
+  color: #333; /* Ngjyra e fontit për titullin */
+  font-weight: bold; /* Ndryshon stilin e shkrimit në bold */
+  margin-right: 20px; /* Shtoni një distancë në fund të titullit */
+}
+
+.left-subheader,
+.right-subheader {
+  flex: 1; /* Ndaj hapësirën e disponueshme në dy pjesë */
+}
+
+.left-subheader {
+  margin-right: 100px; /* Shto një hapësirë të duhur në të djathtë */
+  padding: 100px;
+}
+.left-subheader h1 {
+  margin-bottom: 10px;
+  width: 63%; /* Shto një hapësirë poshtë h1 */
+}
+
+.left-subheader p {
+  margin-top: 10px; /* Shto një hapësirë lart e poshtë përmbajtjes së paragrafit */
+  display: flex;
+  width: 71%;
+}
+
+.left-subheader {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.reserve-button button {
+  padding: 10px 20px; /* Stilizimi i madhësisë së butonit */
+  background-color: #333; /* Ngjyra e sfondit të butonit */
+  color: white; /* Ngjyra e tekstit të butonit */
+  border: 5%; /* Hiq kufirin e butonit */
+  border-radius: 5%; /* Rrethimi i butonit */
+  cursor: pointer; /* Kurori që shfaqet kur pasohet me mishën mbi butonin */
+  transition: background-color 0.3s ease; /* Tranzicioni i ngjyrës së sfondit në hover */
+}
+.reserve-button {
+  margin-top: 8%;
+}
+.additional-image1 {
+  position: absolute;
+  size: 200px;
+  top: 82px;
+  left: -183px;
+  z-index: -1;
+}
+
+.additional-image2 {
+  position: absolute;
+  z-index: -1;
+  size: 600px;
+  top: 136px;
+  right: -58px;
+  width: 200px;
+  height: 450px;
+}
+
+.header-container {
+  position: relative;
+}
+
+.container-section {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  height: 362px;
+}
+
+.container-section h2 {
+  font-size: 30px;
+  font-family: "Cardo", sans-serif;
+  max-width: 770px;
+  color: #fff;
+  /* margin-left: 490px; */
+  width: 245px;
+}
+
+.container-section p {
+  font-size: 14px;
+  text-align: center;
+  margin: 0;
+  margin-top: 2%;
+  /* margin-left: 364px; */
+  color: #fff;
+  width: 467px;
+}
+
+.travel-button button {
+  padding: 10px 20px; /* Stilizimi i madhësisë së butonit */
+  background-color: #333; /* Ngjyra e sfondit të butonit */
+  color: white; /* Ngjyra e tekstit të butonit */
+  border-color: white; /* Hiq kufirin e butonit */
+  border-radius: 5%; /* Rrethimi i butonit */
+  cursor: pointer; /* Kurori që shfaqet kur pasohet me mishën mbi butonin */
+  transition: background-color 0.3s ease; /* Tranzicioni i ngjyrës së sfondit në hover */
+}
+.travel-button {
+  margin-top: 25px;
+  margin-left: -50px;
+}
+.additional-image3 {
+  position: absolute;
+  size: 217px;
+  width: 410px;
+  top: 710px;
+  left: -155px;
+}
+.additional-image4 {
+  position: absolute;
+  size: 207px;
+  width: 419px;
+  height: 58px;
+  top: 860px;
+  right: -89px;
+}
+.section {
+  justify-content: space-around;
+  align-items: flex-start;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  height: 100lvh;
+  margin: 196px;
+}
+.item1 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  width: auto;
+}
+
+.img-1 {
+  width: 205px;
+  height: 159px;
+}
+
+h3 {
+  font-size: 24px;
+  font-family: "Cardo", sans-serif;
+  max-width: 770px;
+  color: #333;
+  margin: 16px;
+  width: 152px;
+  font-style: bold;
+  margin-left: -1%;
+}
+.item1 p {
+  font-family: "Cardo", sans-serif;
+  font-size: 10px;
+  width: 220px;
+  height: 97px;
+  margin: 15px;
+  margin-top: 2%;
+  margin-left: -5%;
+}
+
+.item2 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  width: auto;
+}
+
+.img-2 {
+  width: 205px;
+  height: 159px;
+}
+h4 {
+  font-size: 24px;
+  font-family: "Cardo", sans-serif;
+  max-width: 770px;
+  color: #333;
+  margin: 16px;
+  width: 152px;
+  font-style: bold;
+  margin-left: -1%;
+}
+.item2 p {
+  font-family: "Cardo", sans-serif;
+  font-size: 10px;
+  width: 220px;
+  height: 97px;
+  margin: 15px;
+  margin-top: 2%;
+  margin-left: -5%;
+}
+
+.item3 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  width: auto;
+}
+
+.img-3 {
+  width: 205px;
+  height: 159px;
+}
+
+h5 {
+  font-size: 24px;
+  font-family: "Cardo", sans-serif;
+  max-width: 770px;
+  color: #333;
+  margin: 16px;
+  width: 152px;
+  font-style: bold;
+  margin-left: -1%;
+}
+
+.item3 p {
+  font-family: "Cardo", sans-serif;
+  font-size: 10px;
+  width: 220px;
+  height: 97px;
+  margin: 15px;
+  margin-top: 2%;
+  margin-left: -5%;
+}
+
+.left-img {
+  position: absolute;
+  size: 200px;
+  top: 972px;
+  width: 128px;
+  height: 871px;
+  left: -3%;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  margin: -5px;
+}
+
+.right-img {
+  position: absolute;
+  size: 200px;
+  top: 1231px;
+  width: 113px;
+  height: 546px;
+  right: -3%;
+}
+
+.section2 {
+  position: absolute; /* Për pozicionim të objekteve të brendshme */
+  width: 125%; /* Për të zënë gjithë hapësirën e disponueshme */
+  height: 100vh; /* Përparaqitja e plotë e ekranit */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vendosim objektet në qendër horizontalisht */
+  align-items: center; /* Vendosim objektet në qendër vertikalisht */
+}
+h6 {
+  font-size: 52px;
+  font-family: "Cardo", sans-serif;
+  max-width: 770px;
+  color: #333;
+  margin: 16px;
+  width: 500px;
+  font-style: bold;
+  margin-left: -20%;
+}
+.item p {
+  font-family: "Cardo", sans-serif;
+  font-size: 70px;
+  width: 563px;
+  height: 97px;
+  margin: 15px;
+  margin-top: 2%;
+  margin-left: -5%;
+}
+.left-img {
+  position: absolute;
+  size: 200px;
+  top: 972px;
+  width: 128px;
+  height: 871px;
+  left: -3%;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  margin: -5px;
+}
+.right-img {
+  position: absolute;
+  size: 200px;
+  top: auto;
+  margin-right: -84px;
+  width: 353px;
+  height: 500px;
+  right: 10%;
+}
+.item1 {
+  position: absolute;
+  size: 200px;
+  top: auto;
+  margin-right: -84px;
+  width: 353px;
+  height: 500px;
+  right: 10%;
+}
