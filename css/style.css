@@ -34,6 +34,7 @@ li {
 }
 .menu li a {
   font-family: "Lato", sans-serif;
+  font-style: bold;
   font-size: 16px;
   font-weight: 500;
   color: #333;
@@ -118,16 +119,16 @@ h1 {
 }
 
 .reserve-button button {
-  padding: 10px 20px; /* Stilizimi i madhësisë së butonit */
-  background-color: #333; /* Ngjyra e sfondit të butonit */
-  color: white; /* Ngjyra e tekstit të butonit */
-  border: 5%; /* Hiq kufirin e butonit */
-  border-radius: 5%; /* Rrethimi i butonit */
-  cursor: pointer; /* Kurori që shfaqet kur pasohet me mishën mbi butonin */
-  transition: background-color 0.3s ease; /* Tranzicioni i ngjyrës së sfondit në hover */
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: 5%;
+  border-radius: 5%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 .reserve-button {
-  margin-top: 8%;
+  margin-top: 13%;
 }
 .additional-image1 {
   position: absolute;
@@ -142,7 +143,7 @@ h1 {
   z-index: -1;
   size: 600px;
   top: 136px;
-  right: -58px;
+  right: 0;
   width: 200px;
   height: 450px;
 }
@@ -152,46 +153,45 @@ h1 {
 }
 
 .container-section {
-  justify-content: center;
-  text-align: center;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-color: black;
-  height: 362px;
+  padding: 70px 0 70px 0;
 }
 
 .container-section h2 {
-  font-size: 30px;
+  font-size: 31px;
   font-family: "Cardo", sans-serif;
   max-width: 770px;
   color: #fff;
   /* margin-left: 490px; */
   width: 245px;
+  text-align: center;
 }
 
 .container-section p {
   font-size: 14px;
   text-align: center;
-  margin: 0;
-  margin-top: 2%;
+  margin: 20px;
+  /*margin-top: 2%;
   /* margin-left: 364px; */
   color: #fff;
   width: 467px;
 }
 
 .travel-button button {
-  padding: 10px 20px; /* Stilizimi i madhësisë së butonit */
-  background-color: #333; /* Ngjyra e sfondit të butonit */
-  color: white; /* Ngjyra e tekstit të butonit */
-  border-color: white; /* Hiq kufirin e butonit */
-  border-radius: 5%; /* Rrethimi i butonit */
-  cursor: pointer; /* Kurori që shfaqet kur pasohet me mishën mbi butonin */
-  transition: background-color 0.3s ease; /* Tranzicioni i ngjyrës së sfondit në hover */
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border-color: white;
+  border-radius: 5%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 13px;
 }
-.travel-button {
-  margin-top: 25px;
-  margin-left: -50px;
-}
+
 .additional-image3 {
   position: absolute;
   size: 217px;
@@ -205,94 +205,127 @@ h1 {
   width: 419px;
   height: 58px;
   top: 860px;
-  right: -89px;
+  right: 0;
 }
 .section {
   justify-content: space-around;
-  align-items: flex-start;
+  align-items: center;
   text-align: left;
   display: flex;
   flex-direction: row;
   background-color: #fff;
-  height: 100lvh;
-  margin: 196px;
+  padding: 100px 0 0 0;
+
+  /* margin: 196px; */
+  /* width: 100%;*/
 }
+
 .item1 {
-  text-align: center;
   display: flex;
   flex-direction: column;
-  margin: 10px;
-  width: auto;
+  /*width: 352px;
+  height: 484px;*/
+  align-items: center;
+  margin: 14px;
 }
 
 .img-1 {
-  width: 205px;
+  width: 100%;
   height: 159px;
+}
+
+.divider {
+  width: 50px;
+  height: 3px;
+  margin-top: 10px;
+  background-color: black;
+  align-self: flex-start;
 }
 
 h3 {
   font-size: 24px;
   font-family: "Cardo", sans-serif;
-  max-width: 770px;
+  /* max-width: 770px; */
+  /* width: 100%; */
   color: #333;
-  margin: 16px;
-  width: 152px;
+  /* margin: 16px; */
+  margin-top: 10px;
+  /*  width: 152px;*/
+  /* text-align: left; */
   font-style: bold;
-  margin-left: -1%;
+  align-self: flex-start;
+  /* margin-left: -1%;*/
 }
 .item1 p {
   font-family: "Cardo", sans-serif;
   font-size: 10px;
   width: 220px;
   height: 97px;
-  margin: 15px;
-  margin-top: 2%;
-  margin-left: -5%;
+  /* margin: 15px; */
+  margin-top: 10px;
+  align-self: flex-start;
+  margin-left: -1%;
 }
 
 .item2 {
-  text-align: center;
   display: flex;
   flex-direction: column;
-  margin: 10px;
-  width: auto;
+  /*width: 352px;
+  height: 484px;*/
+  align-items: center;
 }
 
 .img-2 {
-  width: 205px;
+  width: 100%;
   height: 159px;
+}
+.divider {
+  width: 50px;
+  height: 3px;
+  margin-top: 10px;
+  background-color: black;
+  align-self: flex-start;
 }
 h4 {
   font-size: 24px;
   font-family: "Cardo", sans-serif;
-  max-width: 770px;
+  /* max-width: 770px; */
   color: #333;
-  margin: 16px;
-  width: 152px;
+  /* width: 152px;*/
   font-style: bold;
   margin-left: -1%;
+  margin-top: 10px;
+  align-self: flex-start;
 }
 .item2 p {
   font-family: "Cardo", sans-serif;
   font-size: 10px;
   width: 220px;
   height: 97px;
-  margin: 15px;
-  margin-top: 2%;
-  margin-left: -5%;
+  /* margin: 15px; */
+  margin-top: 10px;
+  margin-left: -1%;
+  align-self: flex-start;
 }
 
 .item3 {
-  text-align: center;
   display: flex;
   flex-direction: column;
-  margin: 10px;
-  width: auto;
+  /*width: 352px;
+  height: 484px;*/
+  align-items: center;
 }
 
 .img-3 {
-  width: 205px;
+  width: 100%;
   height: 159px;
+}
+.divider {
+  width: 50px;
+  height: 3px;
+  margin-top: 10px;
+  background-color: black;
+  align-self: flex-start;
 }
 
 h5 {
@@ -301,9 +334,11 @@ h5 {
   max-width: 770px;
   color: #333;
   margin: 16px;
-  width: 152px;
+  /* width: 152px;*/
   font-style: bold;
   margin-left: -1%;
+  margin-top: 10px;
+  align-self: flex-start;
 }
 
 .item3 p {
@@ -311,88 +346,464 @@ h5 {
   font-size: 10px;
   width: 220px;
   height: 97px;
-  margin: 15px;
-  margin-top: 2%;
-  margin-left: -5%;
+  /* margin: 15px; */
+  margin-top: -3px;
+  margin-left: -1%;
+  align-self: flex-start;
 }
 
 .left-img {
   position: absolute;
   size: 200px;
-  top: 972px;
-  width: 128px;
-  height: 871px;
-  left: -3%;
+  top: 980px;
+  width: 48px;
+  height: 544px;
+  left: -2%;
   text-align: start;
   display: flex;
   flex-direction: column;
-  margin: -5px;
 }
 
 .right-img {
   position: absolute;
-  size: 200px;
-  top: 1231px;
-  width: 113px;
-  height: 546px;
-  right: -3%;
+  width: 60px;
+  height: 380px;
+  display: flex;
+  top: 1220px;
+  right: 0;
 }
 
 .section2 {
-  position: absolute; /* Për pozicionim të objekteve të brendshme */
-  width: 125%; /* Për të zënë gjithë hapësirën e disponueshme */
-  height: 100vh; /* Përparaqitja e plotë e ekranit */
+  justify-content: center;
+  align-items: center;
+  text-align: left;
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Vendosim objektet në qendër horizontalisht */
-  align-items: center; /* Vendosim objektet në qendër vertikalisht */
+  background-color: #fff;
+  height: 100%;
 }
+.writing-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.airplane {
+  width: 50px;
+  height: 50px;
+}
+
 h6 {
-  font-size: 52px;
+  font-size: 62px;
   font-family: "Cardo", sans-serif;
   max-width: 770px;
   color: #333;
-  margin: 16px;
-  width: 500px;
+  margin: 20px;
+  width: 494px;
+  text-align: center;
   font-style: bold;
-  margin-left: -20%;
 }
-.item p {
-  font-family: "Cardo", sans-serif;
-  font-size: 70px;
-  width: 563px;
-  height: 97px;
-  margin: 15px;
-  margin-top: 2%;
-  margin-left: -5%;
+p {
+  font-family: "Lato", sans-serif;
+  font-size: 17px;
+  font-style: bold;
+  /* width: 438px; */
+  /* height: 20px; */
 }
-.left-img {
+.left2 {
   position: absolute;
-  size: 200px;
-  top: 972px;
-  width: 128px;
-  height: 871px;
-  left: -3%;
-  text-align: start;
+  left: 10%;
+  top: 915px;
+  width: 363px;
+  height: 94px;
+}
+.right2 {
+  position: absolute;
+  size: 150px;
+  top: 752px;
+  width: 278px;
+  height: 787px;
+  left: 73%;
+}
+.place {
+  display: flex;
+  /*flex-direction: row;
+  width: 1199px;
+  height: 770px;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin: 205px;*/
+  padding: 50px;
+}
+.place-img {
+  padding: 56px;
+  width: 389px;
+  height: 557px;
+  /* object-fit: cover; */
+
+  margin-left: -10px;
+}
+
+.text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+}
+h7 {
+  font-size: 30px;
+  font-family: "Cardo", sans-serif;
+  max-width: 770px;
+  color: #333;
+  display: flex;
+  width: 204px;
+  font-style: bold;
+  /* align-items: flex-end; */
+  margin: 40px;
+}
+
+.underline {
+  text-decoration: underline; /* Vendosni vijën nën tekstin */
+  text-decoration-color: black; /* Mund të ndryshoni ngjyrën e vijës sipas dëshirës */
+  text-decoration-thickness: 2px; /* Mund të ndryshoni trashësinë e vijës sipas dëshirës */
+  text-decoration-style: solid;
+}
+.place-text {
+  font-family: "Lato", sans-serif;
+  font-size: 17px;
+  font-style: bold;
+  width: 438px;
+  display: flex;
+  align-items: center;
+  /* height: 20px; */
+}
+
+.container3 {
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  background-color: black;
+
+  position: relative;
+  background-color: black;
+  flex-direction: row;
+  padding: 50px 0px 70px 10px;
+
+  /* height: 650px; */
+}
+
+.container-text-box {
+  justify-content: flex-start;
+  /*z-index: 1;*/
+  /* position: absolute;*/
+  width: 19%;
+  size: 42px;
+}
+
+.heading-text {
+  font-size: 28px;
+  font-family: "Cardo", sans-serif;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.sub-text,
+.small-sub-text {
+  color: white;
+  font-family: "Lato", sans-serif;
+  /* font-size: 15px; */
+}
+
+.sub-container {
   display: flex;
   flex-direction: column;
-  margin: -5px;
+  margin-bottom: 10px;
+  z-index: -1;
 }
-.right-img {
-  position: absolute;
-  size: 200px;
-  top: auto;
-  margin-right: -84px;
-  width: 353px;
-  height: 500px;
-  right: 10%;
+
+.sub-text {
+  font-size: 17px;
+  margin-bottom: 10px;
 }
-.item1 {
+
+.small-sub-text {
+  font-size: 12px;
+}
+.schribble-box {
   position: absolute;
-  size: 200px;
-  top: auto;
-  margin-right: -84px;
-  width: 353px;
-  height: 500px;
-  right: 10%;
+  bottom: 0;
+  top: 276px;
+  left: -358px;
+}
+.image-container-box {
+  position: absolute;
+  top: 27px;
+
+  left: 406px;
+  width: 360px;
+  height: 270px;
+}
+
+.image-left-box {
+  top: 27px;
+  left: 10px;
+  width: 200px;
+  height: 100px;
+}
+.section3 {
+  background-color: #fff;
+  padding: 70px 50px 300px 50px;
+  position: relative;
+  display: flex;
+}
+.section-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  width: 50%;
+}
+.heading-section {
+  font-size: 53px;
+  font-family: "Cardo", sans-serif;
+  color: black;
+  font-weight: bold;
+  margin: 47px;
+}
+.sub-section {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.sub-section1 {
+  border-top: 4px solid;
+  font-size: 12px;
+  margin: 10px;
+  padding: 10px;
+}
+.margin-bottom {
+  border-bottom: 4px solid;
+}
+
+.image-section {
+  display: flex;
+}
+.image-section-img {
+  width: 380px;
+  height: 418px;
+}
+.section4 {
+  background-color: #fff;
+  /* padding: 0 100px 100px 600px; */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  /* padding: 0 100px 100px 600px; */
+}
+.text-section {
+  text-align: center; /* Vendos tekstin në qendër */
+  margin-bottom: 20px;
+
+  top: 50%; /* Vendos pozicionin vertikal në mes */
+  left: 50%; /* Vendos pozicionin horizontal në mes */
+}
+.head-section {
+  font-size: 57px;
+  font-family: "Cardo", sans-serif;
+  color: black;
+  font-weight: bold;
+}
+
+.schribe {
+  position: absolute;
+  /* bottom: 0; */
+  top: -30px;
+  left: -370px;
+}
+.images {
+  margin-top: 100px;
+  justify-content: space-around;
+  background-color: #fff;
+  /* padding: 0 100px 100px 600px; */
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+.costumer-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-left: -572px; */
+  /* margin: 257px; */
+  /* margin-left: -525px; */
+  /* top: 331px; */
+  height: 37;
+  /* position: absolute; */
+  border: 1px solid black;
+  border-radius: 9px;
+  padding: 20px 10px 70px 10px;
+}
+
+.img-elipse {
+  position: absolute;
+  width: 112px;
+  height: 103px;
+}
+.person {
+  position: absolute;
+  top: 58px;
+  width: 95px;
+  height: 105px;
+}
+.name {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  width: 160px;
+  margin: 22px;
+}
+.costumer {
+  font-family: "Lato", sans-serif;
+  font-size: 17px;
+
+  width: 293px;
+  height: 5px;
+}
+.costumer-image2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-left: -572px; */
+  /* margin: 257px; */
+  /* margin: 281px; */
+  /* margin-left: -418px; */
+  /* position: absolute; */
+  border: 1px solid black;
+  border-radius: 9px;
+
+  padding: 20px 10px 70px 10px;
+}
+
+.img-elipse2 {
+  position: absolute;
+  width: 112px;
+  height: 103px;
+}
+.person2 {
+  position: absolute;
+  top: 58px;
+  width: 95px;
+  height: 105px;
+}
+.name2 {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  width: 160px;
+  margin: 22px;
+}
+.costumer2 {
+  font-family: "Lato", sans-serif;
+  font-size: 17px;
+
+  width: 293px;
+  height: 5px;
+}
+.costumer-image3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-left: -572px; */
+  /* margin: 257px; */
+  /* margin: 281px; */
+  /* left: 496px; */
+  /* position: absolute; */
+  border: 1px solid black;
+  border-radius: 9px;
+  padding: 20px 10px 70px 10px;
+}
+.img-elipse3 {
+  position: absolute;
+  width: 112px;
+  height: 103px;
+}
+.person3 {
+  position: absolute;
+  top: 58px;
+  width: 95px;
+  height: 105px;
+}
+.name3 {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  width: 160px;
+  margin: 22px;
+}
+.costumer3 {
+  font-family: "Lato", sans-serif;
+  font-size: 17px;
+  font-style: bold;
+  width: 293px;
+  height: 5px;
+}
+.section5 {
+  background-color: #fff;
+  padding: 100px 50px 80px 50px;
+  position: relative;
+  display: flex;
+}
+
+.email {
+  font-family: "Cardo", sans-serif;
+  font-weight: bold;
+  font-size: 55px;
+  padding: 0px 0px 10px 0px;
+}
+.first {
+  padding: 20px 160px 20px 20px;
+  border: 3px solid black;
+  border-radius: 8px;
+}
+.last {
+  padding: 20px 160px 20px 20px;
+  border: 3px solid black;
+  border-radius: 8px;
+}
+.mail {
+  padding: 20px 160px 20px 20px;
+  border: 3px solid black;
+  border-radius: 8px;
+}
+.write {
+  padding: 20px 160px 200px 20px;
+  border: 3px solid black;
+  border-radius: 8px;
+}
+
+.submit button {
+  padding: 20px 110px 20px 110px;
+  background-color: #333;
+  color: white;
+  border: 1px solid;
+  border-color: white;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 1px;
+}
+.lake {
+  display: flex;
+  align-self: flex-end;
+}
+.img-lake {
+  width: 613px;
+  height: 560px;
+  margin-left: 200px;
 }
